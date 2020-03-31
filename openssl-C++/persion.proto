@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+enum Color
+{
+    Red = 0;
+    Blue = 4;
+    Greenn = 5;
+}
+
+message Persion
+{
+    int64 id = 1;
+    bytes name = 2;
+    bytes sex = 3;
+    int64 age = 4;
+    Color color = 5;
+}

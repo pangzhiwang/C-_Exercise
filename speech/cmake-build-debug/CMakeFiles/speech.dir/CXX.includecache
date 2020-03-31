@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sniper/CLionProjects/C++/speech/main.cpp
+iostream
+-
+vector
+-
+map
+-
+algorithm
+-
+functional
+-
+string
+-
+deque
+-
+queue
+-
+ctime
+-
+numeric
+-
+
